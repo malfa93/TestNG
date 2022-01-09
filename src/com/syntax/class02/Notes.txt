@@ -1,0 +1,23 @@
+Class 2
+
+User story 1234 - Admin user should be able to login with valid credentials.
+
+Priority - by default it is set at 0
+To prioritize the tc, we use this attribute
+
+enable and disable - to make any tc enabled or disabled temporarily we use this attribute
+
+Assertions:
+Hard Assertions: we use for small execution because it stops execution if encounters error
+Soft Assertion: we use to execute code with multiple
+
+to format: option cmd L
+
+Testng.xml where the highest level is suite-->test-->packages-->class-->methods(@Test)
+
+groups - we use different groups to separate the TC
+
+alwaysrun = true - we use this attribute to execute the pre and post condition from testng.xml file
+
+smoke - checking the key functionality of the application - quick testing
+regression - checking the fixed modules

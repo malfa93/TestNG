@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/mohammedalfadhli/eclipse-workspace/TestNgBasicsBatch11">
+        <classes>
+            <class name="com.syntax.class01.BeforeClassAndAfterClass">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                    <include name="thirdTest"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.FirstExample">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                    <include name="thirdTest"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class01.PreconditionAndPostCondition">
+                <methods>
+                    <include name="test"/>
+                    <include name="anotherTest"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.DependsOn">
+                <methods>
+                    <include name="login"/>
+                    <include name="verificationOfDashboard"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.EnableAndDisable">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                    <include name="thirdTest"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.HardAssertion">
+                <methods>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.LoginTest">
+                <methods>
+                    <include name="adminLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.PriorityClass">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                    <include name="thirdTest"/>
+                </methods>
+            </class>
+            <class name="com.syntax.class02.SoftAssertion">
+                <methods>
+                    <include name="verifyAndValidateSoftAssertion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

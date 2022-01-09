@@ -1,0 +1,18 @@
+Recap Class 1
+
+What is TestNG:
+    Testing is a tool we use to automate application
+
+Why do we need it?
+    Reports
+    Parallel Execution
+    Annotation based execution
+    Grouping
+    Data Driven Testing
+    Multiple options for execution
+
+@Test annotation - this is the main annotation of testing execute out TC (Test Cases)
+It executes test cases in alphabetical order by default
+
+@BeforeMethod as a precondition that executes before every TC
+@AfterMethod as a post condition that executes after every TC
